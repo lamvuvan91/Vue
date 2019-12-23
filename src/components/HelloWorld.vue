@@ -1,24 +1,18 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <Test>1</Test>
+    <Board/>
   </div>
 </template>
 
 <script>
 
-import Test from '@/components/Test'
+import Board from '@/components/Board'
+
 export default {
   name: 'HelloWorld',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
-  },
   components:
   {
-    Test
+    Board
   }
 }
 </script>
