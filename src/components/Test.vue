@@ -1,9 +1,9 @@
 <template>
-  <h1>haha</h1>
+  <h1>haha1</h1>
 </template>
 
 <script>
 export default {
-  name:"TestComponent"
-};
+  name: 'Test'
+}
 </script>

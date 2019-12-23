@@ -1,30 +1,32 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <h3>Installed CLI Plugins</h3>
-    <TestComponent/>
+    <h2>Essential Links</h2>
+    <Test>1</Test>
   </div>
 </template>
 
 <script>
-import TestComponent from "./TestComponent";
 
+import Test from '@/components/Test'
 export default {
-  name: "HelloWorld",
-  props: {
-    msg: String
+  name: 'HelloWorld',
+  data () {
+    return {
+      msg: 'Welcome to Your Vue.js App'
+    }
   },
   components:
   {
-    TestComponent
+    Test
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+h1, h2 {
+  font-weight: normal;
 }
 ul {
   list-style-type: none;
