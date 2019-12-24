@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <p>Người thăng là {{ win.peoPlayWin }}</p>
+    <p>Người win : {{ win.peoPlayWin }}</p>
     <input v-model="numberInput" type="number" v-on:click="addsquares" />
     <Board
       :numberInput="Number(numberInput1)"
